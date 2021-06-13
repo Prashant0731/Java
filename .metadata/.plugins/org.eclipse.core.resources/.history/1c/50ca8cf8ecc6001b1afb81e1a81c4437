@@ -1,0 +1,16 @@
+ package com.practice.StringBuffer;
+
+public class Methods_Insert_Example6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct");
+		
+		System.out.println(sb.insert(1, 'I'));  //
+		System.out.println(sb.insert(7, "India"));  //
+		System.out.println(sb.insert(6, "***"));  //
+		
+		
+	}
+}

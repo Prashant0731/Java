@@ -1,0 +1,27 @@
+package com.practice.Wrapper_Classes;
+
+public class Constructores_Example1 {
+	
+	public static void main(String[] args) {
+		
+	// Pass primitive as argument
+	Integer i1 = new Integer(10);
+	
+	// 	Pass String as argument
+	Integer i2 = new Integer("10");
+	
+	Float f1 = new Float(20.5f);
+	Float f2 = new Float("20.5f");
+	Float f3 = new Float(20.5);
+
+
+	
+	System.out.println("Integer = "+i1+" : : "+i2);
+	
+	System.out.println("Float = "+f1+" : : "+f2);
+	
+	
+
+
+	}
+}

@@ -1,0 +1,12 @@
+package com.practice.StringBuffer;
+
+public class Constructors_Example0 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		StringBuffer sb = new StringBuffer();
+		System.out.println(sb.capacity());
+	}
+
+}

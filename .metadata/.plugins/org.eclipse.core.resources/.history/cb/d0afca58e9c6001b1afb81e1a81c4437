@@ -1,0 +1,12 @@
+ package com.practice.StringBuffer;
+
+public class Methods_Length_Example1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer();
+		System.out.println(sb.length());
+		System.out.println(sb.length());
+	}
+}

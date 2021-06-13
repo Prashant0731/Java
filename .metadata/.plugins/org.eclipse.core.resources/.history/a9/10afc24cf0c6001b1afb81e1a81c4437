@@ -1,0 +1,55 @@
+#StringBuilder QaA
+
+=> If the content is changing frequently then it not recommended to go with String, 
+	because for every change a new object will be created internally.
+
+=> To handle this requirement then we should go for StringBuffer
+
+=> The main advantage of StringBuffer, all required changes will be performed in existing object instide of creating new object. 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+# Constructore : 
+
+=>  Default initial-capacity of StringBuffer is 16.
+=>  NewCapacity = (CurrentCapacity+1)*2.
+
+1. public StringBuffer() 				//Constructs a string buffer with no characters in it and an initial capacity of 16 characters.
+2. public StringBuffer(int capacity) //Constructs a string buffer with no characters in it and the specified initial capacity.
+3. public StringBuffer(String str)   // capacity=s.length()+16
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+# Important methods of StringBuffer
+
+
+1. public int length()						// Returns the length (character count).
+2. public int length()						// Returns the length (character count).
+3. public char charAt(int index)			// Returns the char value in this sequence at the specified index. The first char value is at index 0,
+4. public void setCharAt(int index, char ch) // The character at the specified index is set to ch.
+5. public StringBuffer append(String str)	// 
+6. public StringBuffer insert(int offset,String str)	// we need to pass the index and it replace index with char that you provided eg: (4, "Hello India");
+7. public StringBuffer delete(int start, int end)		// It will delete start and end in between.
+8. public StringBuffer deleteCharAt(int index)			// It will delete only specific index that you passed it.
+9. public StringBuffer reverse()						//
+10.public void setLength(int newLength)					// IT will print only what you have pass in the index.
+11.public void trimToSize()								// reduce storage used for the character sequence.
+12. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

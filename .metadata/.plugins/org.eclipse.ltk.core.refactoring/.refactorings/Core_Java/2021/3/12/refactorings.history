@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Case_1_StringVsStringBuffere.java&apos; to &apos;com.practice.string.Case_1_StringVsStringBuffere.java&apos;&#x0D;&#x0A;- Original project: &apos;Language Fundamental&apos;&#x0D;&#x0A;- Destination element: &apos;com.practice.string.Case_1_StringVsStringBuffere.java&apos;&#x0D;&#x0A;- Original element: &apos;com.practice.string.Case_1_StringVsStringBuffere.java&apos;" description="Copy compilation unit" destination="/src&lt;com.practice.string{Case_1_StringVsStringBuffere.java" element1="/src&lt;com.practice.string{Case_1_StringVsStringBuffere.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1615866374829" units="1" version="1.0"/>
+</session>

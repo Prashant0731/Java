@@ -1,0 +1,17 @@
+ package com.practice.StringBuffer;
+
+public class Methods_EnsureCapacity_Example12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct"); 
+		sb.ensureCapacity(10); // 
+		System.out.println(sb);
+		
+		System.out.println(sb.capacity());
+		
+		
+		
+	}
+}

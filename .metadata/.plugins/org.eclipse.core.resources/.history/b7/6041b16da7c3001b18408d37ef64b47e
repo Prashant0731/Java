@@ -1,0 +1,11 @@
+package com.practice.string;
+
+public class FinalvsImmutability {
+	
+	public static void main(String[] args) {
+		
+		StringBuffer sb = new StringBuffer("Dataoct");
+		sb.append("Technologies");
+	}
+
+}

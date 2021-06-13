@@ -1,0 +1,15 @@
+package com.practice.StringBuilder_V1_5;
+
+public class ExampleMethodChaining {
+
+	public static void main(String[] args) {
+		
+	
+	StringBuffer sb = new StringBuffer();
+	
+	sb.append("PrashantChauhan").insert(0,"Mr.").delete(8,9).reverse().append("India").insert(10,"SoftwareDeveloper").reverse();
+	
+	System.out.println(sb); //
+	
+	}
+}

@@ -1,0 +1,11 @@
+ package com.practice.StringBuffer;
+
+public class Methods_SetCharAt_Example4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct"); 
+		System.out.println(sb.charAt(6,a));	//t 
+	}
+}

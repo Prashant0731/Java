@@ -1,0 +1,35 @@
+#String QA
+
+
+
+
+
+
+# Interning of String object : 
+
+
+
+# Important methods of String class.
+
+1. public char charAt(int index)  						 -- return the the location of specified index.   [java.lang.String.charAt]
+2. public String concat(String str) 					 -- concatenation. | overloaded  "+" and "+=" operators are also concat purpose only.
+3. public boolean equals(Object obj)					 -- equals() method of java Object class. | java string equals() method compares the two given strings based on the content of the string. | If any character is not matched, it returns false. If all characters are matched, it returns true.
+4. public boolean equalsIgnoreCase(String anotherString) -- method compares the two given strings on the basis of content of the string irrespective of case of the string |  It is like equals() method but doesn't check case.
+5. public String substring(int beginIndex)  			 -- return the substring from the begin index of string.
+6. public String substring(int beginIndex, int endIndex) -- return the substring from the begin index and end index -1 of string.
+7. public int length() 									 -- return no of character present in the string | length is variable applicable for "arrays" | length() method  applicable for "String obj".
+8. public String replace(char old,char new)				 -- replace old char with new character
+9. public String toLowerCase() 							 -- Converts all of the characters in this String to lower case using the rules of the default locale
+10.public String toUpperCase() 							 -- Converts all of the characters in this String to upper case using the rules of the default locale
+11.public String trim() 								 -- It will remove from char from starting and ending but not in the middle.
+12.public int indexOf(int ch)							 -- It will check the 1 st occurrence of char and postion . If it not found it return -1.
+13.public int lastIndexOf(int ch)						 -- It will check last occurrence of char and postion . If it not found it return -1.
+
+------------------------------------------
+
+
+
+
+
+
+

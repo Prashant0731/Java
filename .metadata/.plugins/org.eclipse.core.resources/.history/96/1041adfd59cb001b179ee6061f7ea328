@@ -1,0 +1,20 @@
+package com.practice.Wrapper_Classes;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Boolean b1 = new Boolean("Yes");
+		Boolean b2 = new Boolean("No");
+				
+//		String b1 = new String("Yes");
+//		String b2 = new String("No");
+		
+		System.out.println(b1);				//	false
+		System.out.println(b2);				//	false
+		System.out.println(b1==b2);			// true
+		System.out.println(b1.equals(b2));	// false
+
+	}
+}

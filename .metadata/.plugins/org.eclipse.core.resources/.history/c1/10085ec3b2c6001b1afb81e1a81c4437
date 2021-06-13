@@ -1,0 +1,11 @@
+ package com.practice.StringBuffer;
+
+public class Constructors_Example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+
+	}
+}

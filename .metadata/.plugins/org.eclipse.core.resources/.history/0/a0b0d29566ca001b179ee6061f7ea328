@@ -1,0 +1,27 @@
+package com.practice.string;
+
+public class Example_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+		String s1 = new String("PC"); // Heap/SCP1
+		String s2 = new String("PC"); // Heap/SCP1
+
+		String s3 = "PC"; //SCP1
+		String s4 = "PC"; //SCP1	
+		*/
+		String s1 = "abc"; // 
+		String s2 = new String("abc"); 
+		
+		System.out.println(s1==s2);
+		
+	}
+}
+
+
+/* Heap : s1, s2
+ * SCP : s3,s4 pointing to same Obj SP1
+ * 	
+ *  
+*/

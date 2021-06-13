@@ -1,0 +1,13 @@
+ package com.practice.StringBuffer;
+
+public class Methods_TrimToSize_Example11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct"); 
+		System.out.println(sb.reverse()); // tcoataD
+		
+		
+	}
+}

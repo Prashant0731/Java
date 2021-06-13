@@ -1,0 +1,15 @@
+ package com.practice.StringBuffer;
+
+public class Methods_Delete_Example7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct");
+		
+		System.out.println(sb.delete(0, 7));  	// 
+
+		
+		
+	}
+}

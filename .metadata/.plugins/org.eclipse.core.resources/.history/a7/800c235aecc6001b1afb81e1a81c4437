@@ -1,0 +1,17 @@
+ package com.practice.StringBuffer;
+
+public class Methods_Insert_Example6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer();
+		sb.append("hello");
+		sb.append(2.3);
+		sb.append('A');
+		sb.append(323L);
+		sb.append(true);
+		System.out.println(sb);  //hello2.3A323true
+		
+	}
+}

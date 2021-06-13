@@ -1,0 +1,10 @@
+package com.practice.StringBuilder_V1_5;
+
+public class ExampleSync {
+
+	public static void main(String[] args) {
+		
+		StringBuffer sb = new StringBuffer(" StringBuffer : 1 ");
+		sb.append(" StringBuffer : 2 ")
+	}
+}

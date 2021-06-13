@@ -1,0 +1,13 @@
+ package com.practice.StringBuffer;
+
+public class Methods_Reverse_Example4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct"); 
+		System.out.println(sb.charAt(1)); //a 
+		//Returns the char value in this sequence at the specified index. The first char value is at index 0,
+		
+	}
+}

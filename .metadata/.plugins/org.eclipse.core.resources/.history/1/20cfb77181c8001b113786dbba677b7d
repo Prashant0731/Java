@@ -1,0 +1,35 @@
+# StringBuilder QaA
+
+=> Every method present in StringBuffer are synchronized, 
+   So at time only one thread is allowed to operate StringBuffer object, 
+  "due to this waiting time thread is Increased" and "performance will be effect".
+  
+=> To overcome this issue sun people introduced StringBuilder 1.5 v.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+String : If the Content is fixed and does not change frequently then we should go for String.
+
+String Buffer : If the Content will be change frequently and required thread safety then we should go for StringBuffer.
+ 
+String Builder : If the Content will change frequently and thread safety is not required then we should go for StringBuilder
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Method Chaining :
+
+
+
+
+
+
+
+
+
+
+
+
+
+

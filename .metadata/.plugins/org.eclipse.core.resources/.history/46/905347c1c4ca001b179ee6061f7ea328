@@ -1,0 +1,16 @@
+-------------------------------
+
+==> Wrap primitive into object form, so that we can handle primitive as like object.
+
+
+# constructors : 
+
+All Wrapper classes contains 2 constructors. 
+
+1.) Primitive as argument
+	Integer i1 = new Integer(10);
+
+2.) String as argument
+	Integer i2 = new Integer("10");
+	
+

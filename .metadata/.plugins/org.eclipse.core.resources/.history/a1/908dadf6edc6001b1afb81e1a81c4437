@@ -1,0 +1,17 @@
+ package com.practice.StringBuffer;
+
+public class Methods_DeleteCharAt_Example8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct");
+		
+		System.out.println(sb.insert(1, 'I'));  	// DIataoct
+		System.out.println(sb.insert(7, "India"));  // DIataocIndiat
+		System.out.println(sb.insert(6, "***")); 	// DIatao***cIndiat
+
+		
+		
+	}
+}

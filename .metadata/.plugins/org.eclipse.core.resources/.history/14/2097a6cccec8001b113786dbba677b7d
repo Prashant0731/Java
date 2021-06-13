@@ -1,0 +1,9 @@
+package com.practice.StringBuilder_V1_5;
+
+public class ExampleMethodChaining {
+
+//	StringBuilder sb = new StringBuilder();
+	StringBuffer sb = new StringBuffer();
+	sb.append("").insert().delete().reverse().append();
+	
+}

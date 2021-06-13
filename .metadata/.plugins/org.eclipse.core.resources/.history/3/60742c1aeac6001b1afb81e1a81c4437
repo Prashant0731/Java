@@ -1,0 +1,13 @@
+ package com.practice.StringBuffer;
+
+public class Methods_Length_Example1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuffer sb = new StringBuffer("Dataoct"); //7
+		System.out.println(sb.length()); //0
+		System.out.println(sb.capacity()); //16
+		System.out.println(sb.charAt(1));
+	}
+}

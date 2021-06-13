@@ -1,0 +1,35 @@
+# StringBuilder QaA
+
+=> Every method present in StringBuffer are synchronized, 
+   So at time only one thread is allowed to operate StringBuffer object, 
+  "due to this waiting time thread is Increased" and "performance will be effect".
+  
+=> To overcome this issue sun people introduced StringBuilder 1.5 v.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+String : 
+
+String Buffer : 
+
+String Builder :
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
